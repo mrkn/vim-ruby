@@ -29,6 +29,7 @@ CompilerSet errorformat=
     \%W%f:%l:\ warning:\ %m,
     \%E%f:%l:in\ %*[^:]:\ %m,
     \%E%f:%l:\ %m,
+    \%E%*[^#]#\ %f:%l:%m,
     \%-Z%\tfrom\ %f:%l,
     \%-Z%p^%.%#,
     \%-C%.%#,
